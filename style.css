@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Forum;
+    src: url(fonts/ForumRegular.ttf);
+}
+@font-face {
+    font-family: Afterglow;
+    src: url(fonts/AfterglowRegular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.icons a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+}
+#headerdiv{
+    background-color: rgb(157, 135, 97);
+    height: 35px;
+    padding: 7px;
+    text-align: center;
+    font-family: "Forum";
+    font-size: 19px;
+    color: white;
+}
+#getlitlogo{
+    height: 20px;
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Afterglow";
+    font-size: 45px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.fa-solid.fa-bars.fa-xl{
+    color:rgb(157, 135, 97);
+    margin-top: 47px;
+    float: left;
+    padding: 25px;
+}
+.fa-solid.fa-cart-shopping.fa-xl{
+    color:rgb(157, 135, 97);
+    margin-top: 47px;
+    float: right;
+    padding: 25px;
+}
+#motto{
+    display: block;
+    font-family: "Forum";
+    text-align: center;
+    font-size: 20px;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid rgb(193, 161, 126);
+    margin: 5px;
+    border-radius: 5px;
+    width: 300px;
+    cursor: pointer;
+    transform: translate(92%, 0);
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+    font-family: "Forum";
+    font-weight: bold;
+}
+.gallery:hover{
+    border: 1px solid rgb(110, 94, 75);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 600px){
+    header, aside, section, article{
+        width: 100%;
+    }
+    .gallery{
+        display: inline-block;
+        border: 1px solid rgb(193, 161, 126);
+        margin: 5px;
+        border-radius: 5px;
+        width: auto;
+        cursor: pointer;
+        transform: translate(0, 0);
+    }
+}
+@media screen and (min-width: 600px) and (max-width:950px){
+    header, aside, article{
+        width: 100%;
+    }
+    .gallery{
+        display: inline-block;
+        border: 1px solid rgb(193, 161, 126);
+        margin: 5px;
+        border-radius: 5px;
+        width: 80%;
+        cursor: pointer;
+        transform: translate(12%, 0);
+    }
+}
+@media screen and (min-width: 950px) and (max-width:1024px){
+    header, aside, article{
+        width: 100%;
+    }
+    .gallery{
+        display: inline-block;
+        border: 1px solid rgb(193, 161, 126);
+        margin: 5px;
+        border-radius: 5px;
+        width: 30.5%;
+        cursor: pointer;
+        transform: translate(8%, 0);
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1440px){
+    header, aside, article{
+        width: 100%;
+    }
+    .gallery{
+        display: inline-block;
+        border: 1px solid rgb(193, 161, 126);
+        margin: 5px;
+        border-radius: 5px;
+        width: 25.5%;
+        cursor: pointer;
+        transform: translate(41%, 0);
+    }
+}
+@media screen and (min-width: 1441px) and (max-width:2560px){
+    header, aside, article{
+        width: 100%;
+    }
+    section{
+        width: 80%;
+    }
+    .gallery{
+        display: inline-block;
+        border: 1px solid rgb(193, 161, 126);
+        margin: 5px;
+        border-radius: 5px;
+        width: 28%;
+        cursor: pointer;
+        transform: translate(68%, 0);
+    }
+}
